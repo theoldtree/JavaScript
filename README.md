@@ -17,3 +17,21 @@ const object = {
     },
 }
 ```
+```
+function에 정의된 argument갯수만큼 parameter를 받는다.
+```
+
+### 2.13 Conditional
+```
+값의 타입을 알고 싶으면 console.log(typeof 변수)를 입력해본다
+```
+
+### HTML
+```
+document는 html의 정보를 얻고 변경할 수 있는 default object임
+ex) document.getElementById("id_name")
+```
+```
+태그를 활용하여 class와 id를 지정가능함
+ex) <h1 id="id_name" class="class_name"> text </h1>
+```
