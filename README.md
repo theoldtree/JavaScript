@@ -26,7 +26,7 @@ function에 정의된 argument갯수만큼 parameter를 받는다.
 값의 타입을 알고 싶으면 console.log(typeof 변수)를 입력해본다
 ```
 
-### HTML
+### 3 HTML
 ```
 document는 html의 정보를 얻고 변경할 수 있는 default object임
 ex) document.getElementById("id_name")
@@ -40,4 +40,25 @@ element가 여러개 발견되면 가장 첫번째만 가져옴(여러개 가져
 ```
 태그를 활용하여 class와 id를 지정가능함
 ex) <h1 id="id_name" class="class_name"> text </h1>
+```
+```
+element.addEventListner로 다양한 이벤트 추가가 가능하다
+ex) element.addEventListner("eventName", functionName)
+
+window는 js에서 기본적으로 제공하는 object
+ex) window.addEventListner
+```
+```
+tag.classList.toggle("classNAme") -> classList 안에 특정 class가 포함되어있으면 제거, 없으면 포합시킴
+```
+```
+href property로 링크를 연결할 수 있음
+```
+```
+css에서 display: hidden으로 보이는 내용을 안보이게 할 수 있다.
+```
+
+### 5 Intervals
+```
+setInterval(functionname,숫자) : 매 숫자 miliseconds 마다 function을 수행한다.
 ```
