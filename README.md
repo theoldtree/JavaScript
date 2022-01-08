@@ -28,6 +28,9 @@ function에 정의된 argument갯수만큼 parameter를 받는다.
 
 ### 3 HTML
 ```
+tag는 object형태로 관리됨. tag의 프로퍼티들은 tag.prpertyName 으로 추가할 수 있음
+```
+```
 document는 html의 정보를 얻고 변경할 수 있는 default object임
 ex) document.getElementById("id_name")
 document.getElement~로 element를 가져올 수 있다.
@@ -55,10 +58,25 @@ tag.classList.toggle("classNAme") -> classList 안에 특정 class가 포함되�
 href property로 링크를 연결할 수 있음
 ```
 ```
-css에서 display: hidden으로 보이는 내용을 안보이게 할 수 있다.
+css에서 display: none으로 보이는 내용을 안보이게 할 수 있다.
 ```
 
-### 5 Intervals
+### 5 Intervals, setClock
 ```
 setInterval(functionname,숫자) : 매 숫자 miliseconds 마다 function을 수행한다.
 ```
+```
+date = new Date() -> date object에 여러 함수가 들어있음 get~
+```
+```
+string.padStart(maxLength,"startString") -> 전체 길이와 글자수를 못채웠을때 가장 맨앞에 올 글자
+```
+
+### 6 Background
+```
+creamteElement -> 자바스크립트에서 HTML로 element를 추가할 수 있음
+```
+```
+document.body.appendChild(element) -> 생성한 element를 원하는 위치로 추가함
+```
+ 
